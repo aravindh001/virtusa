@@ -1,0 +1,159 @@
+body{
+	font-family: 'Lato', sans-serif;
+	
+}
+#container{
+	width:70%;
+	margin:10px auto;
+	
+	overflow:auto;
+}
+h1{
+	font-size:40px;
+	font-weight:bold;
+	margin:20px 0 10px 0;
+	line-height:1.2em;
+}
+h3{
+	font-size:45px;
+	font-weight:bold;
+	text-align: center;
+	margin:10px auto;
+	color:rgb(83, 155, 204);
+	padding-top:12px;
+	padding-bottom:15px;
+}
+h2{
+	font-style:bold;
+	margin-top: 15px;
+	padding-bottom:10px;
+	padding-left:15px;
+	font-size: 30px;
+}
+p{
+	font-size:20px;
+	line-height: 1.5em;
+	padding:10px;
+}
+h5{
+	font-style:bold;
+	margin-top: 15px;
+	padding-bottom:10px;
+	padding-left:15px;
+	line-height: 2em;
+	font-size: 30px;
+	padding-right:15px;
+}
+#logo{
+	margin: auto;
+	display: block;
+	background-color: #ddd;
+}
+#main-text{
+	padding: 20px 0 40px 0;
+	text-align:center;
+	margin:10px 0 15px 0;
+}
+#sub-1{
+	float:left;
+	width:40%;
+	background-color:#eee;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: darkgoldenrod;
+	border-width: 2px;
+	
+}
+#sub-2{
+	
+	float:right;
+	width:40%;
+	background-color: #eee;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: darkgoldenrod;
+	border-width: 2px;
+}
+
+#tips{
+	margin-top:50px;
+	padding-top:10px;
+	float:left;
+	background-color: coral;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: darkgoldenrod;
+	border-width: 2px;
+	width:49%;
+}
+#Image{
+	margin-top:40px;
+	float:right;
+	
+	border-style: solid;
+	
+	width: 49%;
+}
+#message
+{
+	margin-top:30px;
+	background-color: rgb(80, 185, 255);
+	border-style: solid;
+	border-radius: 10px;
+	border-color: darkgoldenrod;
+	border-width: 2px;
+	float:left;
+	width:49%;
+	text-align: center;
+}
+#mask{
+	padding-left:110px;
+	
+}
+#doctor{
+	padding-left:3px;
+	padding-top:3px;
+}
+#Image1{
+	margin-top:40px;
+	float:right;
+	width: 49%;
+	text-align:right;
+}
+#patient{
+	padding-left:3px;
+	padding-top:3px;
+}
+#main-part{
+	background-color: #ddd;
+}
+
+@media(max-width:960px){
+	#main-part{
+		width:80%;
+	}
+	
+	h1{
+		font-size:33px;
+	}
+	
+	#sub-1,#sub-2{
+		margin-top: 15px;
+		float:none;
+		width:100%;
+	}	
+	#tips,#Image{
+		float:none;
+		width:100%;
+	}
+	#message,#Image1{
+		float:none;
+		width:100%;
+	}
+}
+
+@media(max-width:568px){
+	h1{
+		font-size:22px;
+	}
+}
